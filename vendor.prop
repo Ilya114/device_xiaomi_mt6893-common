@@ -143,6 +143,9 @@ persist.vendor.vonr_setting_support=1
 ro.vendor.md_auto_setup_ims=1
 ro.vendor.mtk_data_config=1
 
+# LMK tuning
+ro.lmk.filecache_min_kb=153600
+
 # Media
 debug.mediatek.disp_decompress=1
 debug.stagefright.c2inputsurface=-1
