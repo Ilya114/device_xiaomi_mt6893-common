@@ -80,5 +80,8 @@ TARGET_BOARD_PLATFORM := mt6893
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Inherit the proprietary files
 include vendor/xiaomi/mt6893-common/BoardConfigVendor.mk
