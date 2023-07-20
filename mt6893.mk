@@ -119,6 +119,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayMT6893 \
+    SettingsOverlayMT6893 \
 
 # Permissions
 PRODUCT_COPY_FILES += \
