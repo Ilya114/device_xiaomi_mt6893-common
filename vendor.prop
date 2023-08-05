@@ -69,6 +69,7 @@ ro.vendor.smvr.p2batch.vga=32
 
 # DRM
 drm.service.enabled=true
+ro.netflix.bsp_rev=MTK6893-32816-1
 
 # Encryption
 ro.crypto.volume.filenames_mode=aes-256-cts
