@@ -1,4 +1,5 @@
 # Unpinned blobs from agate_global-user 13 TP1A.220624.014 V14.0.6.0.TKWMIXM release-keys
+# tecno: tecno-user 14 UP1A.231005.007 614108 release-keys
 
 # AEE
 vendor/lib/libaedv.so
@@ -134,11 +135,13 @@ vendor/etc/audio_param/Volume_ParamUnitDesc.xml
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/firmware/BT_FW.cfg
-vendor/firmware/soc3_0_ram_bt_1a_1_hdr.bin
 vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbluetooth_mtk_pure.so
 vendor/lib64/libbt-vendor.so
+
+# Bluetooth (firmware) - from tecno
+vendor/firmware/soc3_0_ram_bt_1a_1_hdr.bin|30cd0245d7a5ed072f25dc4e63bb732425e936a0
 
 # Bluetooth (A2DP)
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
@@ -151,7 +154,9 @@ vendor/lib64/libbwc.so
 # Connectivity
 vendor/bin/conninfra_loader
 vendor/firmware/conninfra.cfg
-vendor/firmware/soc3_0_ram_mcu_1a_1_hdr.bin
+
+# Connectivity (firmware) - from tecno
+vendor/firmware/soc3_0_ram_mcu_1a_1_hdr.bin|1913077cd0e11637330a01345a973ce2f80e1fc0
 
 # ConsumerIr
 vendor/lib64/hw/consumerir.common.so
@@ -651,9 +656,11 @@ vendor/firmware/aw8697_haptic.bin
 vendor/bin/wlan_assistant
 vendor/etc/init/wlan_assistant.rc
 vendor/etc/wifi/passpointProfile.conf
-vendor/firmware/WIFI_RAM_CODE_soc3_0_1a_1.bin
-vendor/firmware/soc3_0_patch_wmmcu_1a_1_hdr.bin
-vendor/firmware/soc3_0_ram_wifi_1a_1_hdr.bin
-vendor/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin
 vendor/firmware/wifi.cfg
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
+
+# Wi-fi (firmware) - from tecno
+vendor/firmware/WIFI_RAM_CODE_soc3_0_1a_1.bin|ff309e034b5793b67b6d90915a3d06e0af47fd1f
+vendor/firmware/soc3_0_patch_wmmcu_1a_1_hdr.bin|2723eb9557ce3eda978fe15a980de5371a18a865
+vendor/firmware/soc3_0_ram_wifi_1a_1_hdr.bin|d1d50983956b02cf4159832b7e96156e5ed12fbe
+vendor/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin|39a9fe1ad0a80c4a1c998fecfdf97b29f255e66c
