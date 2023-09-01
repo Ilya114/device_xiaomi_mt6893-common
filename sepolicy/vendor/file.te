@@ -1,2 +1,5 @@
 # Display
 type vendor_sysfs_display, fs_type, sysfs_type;
+
+# GPU
+type vendor_sysfs_gpu, fs_type, sysfs_type;
