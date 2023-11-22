@@ -60,6 +60,9 @@ ro.vendor.smvr.p2batch.fhd=8
 ro.vendor.smvr.p2batch.hd=16
 ro.vendor.smvr.p2batch.vga=32
 
+# Sensors
+ro.vendor.mtk.sensor.support=yes
+
 # SurfaceFlinger
 debug.sf.disable_backpressure=1
 debug.sf.early.app.duration=20000000
