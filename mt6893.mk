@@ -165,11 +165,11 @@ PRODUCT_PACKAGES += \
     fstab.mt6893 \
     fstab.mt6893.ramdisk \
     init.batterysecret.rc \
-    init.cgroup.rc \
     init.connectivity.rc \
     init.mi_thermald.rc \
     init.modem.rc \
     init.mt6893.rc \
+    init.mt6893.power.rc \
     init.mt6893.usb.rc \
     init.sensor_2_0.rc \
     ueventd.mt6893.rc
