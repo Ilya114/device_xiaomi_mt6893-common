@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FrameworksResOverlayMT6893 \
     SettingsOverlayMT6893 \
+    TetheringResOverlayMT6893 \
     WifiResOverlayMT6893 \
 
 # Permissions
