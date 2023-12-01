@@ -1,3 +1,8 @@
+# Display
+genfscon sysfs /devices/virtual/mi_display/disp_feature/dc_status                                u:object_r:vendor_sysfs_display:s0
+genfscon sysfs /devices/virtual/mi_display/disp_feature/dynamic_fps                              u:object_r:vendor_sysfs_display:s0
+genfscon sysfs /devices/virtual/mi_display/disp_feature/panel_info                               u:object_r:vendor_sysfs_display:s0
+
 # Lights
 genfscon sysfs /devices/platform/11f00000.i2c5/i2c-5/5-0034/mt6360_pmu_rgbled.4.auto/leds/blue   u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/platform/11f00000.i2c5/i2c-5/5-0034/mt6360_pmu_rgbled.4.auto/leds/green  u:object_r:sysfs_leds:s0
