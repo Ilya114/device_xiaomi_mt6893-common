@@ -17,6 +17,9 @@
          available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
 
+    <!-- ComponentName of a dream to show whenever the system would otherwise have gone to sleep. -->
+    <string translatable="false" name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
          When false, autosuspend_disable() will be called before the display is turned on

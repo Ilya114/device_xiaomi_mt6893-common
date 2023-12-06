@@ -15,4 +15,7 @@
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
 
+    <!-- Doze: does this device support STATE_DOZE?  -->
+    <bool name="doze_display_state_supported">true</bool>
+
 </resources>
