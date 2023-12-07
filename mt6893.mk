@@ -92,6 +92,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.example \
     android.hardware.health-service.example_recovery
 
+# IFAA manager
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
