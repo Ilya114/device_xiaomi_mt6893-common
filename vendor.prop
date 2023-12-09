@@ -63,6 +63,9 @@ ro.vendor.smvr.p2batch.vga=32
 # GNSS
 ro.vendor.mtk_log_hide_gps=1
 
+# Graphics
+ro.opengles.version=196610
+
 # Media
 debug.mediatek.disp_decompress=1
 debug.stagefright.c2inputsurface=-1
