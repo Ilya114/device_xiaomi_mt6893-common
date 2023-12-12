@@ -141,6 +141,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlayMT6893 \
     FrameworksResOverlayMT6893 \
     SettingsOverlayMT6893 \
     TetheringResOverlayMT6893 \
