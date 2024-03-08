@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+PRODUCT_PACKAGES += \
+    create_pl_dev \
+    create_pl_dev.recovery
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl:32 \
