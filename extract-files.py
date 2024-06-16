@@ -58,6 +58,9 @@ blob_fixups: blob_fixups_user_type = {
 
     'system/lib64/libsink.so': blob_fixup()
         .add_needed('libaudioclient_shim.so'),
+
+    'system/lib64/libsource.so': blob_fixup()
+        .add_needed('libui_shim.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
