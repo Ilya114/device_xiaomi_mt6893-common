@@ -1010,6 +1010,9 @@ on property:vendor.mtk.md1.status=reset
 on boot
     insmod /vendor/lib/modules/fpsgo.ko
 
+on property:sys.boot_completed=1
+    restart android-hardware-media-c2-hal-1-2
+
 # VSIM service (vendor OSI)
 service osi /system/bin/osi
     class main
