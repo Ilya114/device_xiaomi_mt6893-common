@@ -148,9 +148,6 @@ ro.vendor.sim_me_lock_mode=3
 telephony.active_modems.max_count=2
 telephony.lteOnCdmaDevice=1
 
-# Sensors
-ro.vendor.mtk.sensor.support=yes
-
 # SurfaceFlinger
 debug.sf.disable_backpressure=1
 debug.sf.early.app.duration=20000000
