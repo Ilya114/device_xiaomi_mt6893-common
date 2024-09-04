@@ -1,0 +1,2 @@
+# To access display idle state
+allow hal_power_default vendor_sysfs_display:file r_file_perms;

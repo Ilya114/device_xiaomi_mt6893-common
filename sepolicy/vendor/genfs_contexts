@@ -1,4 +1,5 @@
 # Display
+genfscon sysfs /devices/platform/14116000.dispsys_config/idle_state                              u:object_r:vendor_sysfs_display:s0
 genfscon sysfs /devices/virtual/mi_display/disp_feature/dc_status                                u:object_r:vendor_sysfs_display:s0
 genfscon sysfs /devices/virtual/mi_display/disp_feature/dynamic_fps                              u:object_r:vendor_sysfs_display:s0
 genfscon sysfs /devices/virtual/mi_display/disp_feature/panel_info                               u:object_r:vendor_sysfs_display:s0
