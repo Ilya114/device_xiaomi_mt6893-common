@@ -42,6 +42,12 @@ blob_fixups: blob_fixups_user_type = {
 
     ('vendor/bin/mnld', 'vendor/lib64/libaalservice.so'): blob_fixup()
         .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
+
+    'vendor/lib64/mt6893/libmnl.so': blob_fixup()
+        .add_needed('libcutils.so'),
+
+    ('vendor/lib/libteei_daemon_vfs.so', 'vendor/lib64/libteei_daemon_vfs.so'): blob_fixup()
+        .add_needed('liblog.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
