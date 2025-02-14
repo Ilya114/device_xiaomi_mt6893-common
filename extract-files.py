@@ -56,11 +56,14 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so': blob_fixup()
         .replace_needed('libutils.so', 'libutils-v32.so'),
 
-    'system/lib64/libsink.so': blob_fixup()
+    'system/lib64/libsink-mtk.so': blob_fixup()
         .add_needed('libaudioclient_shim.so'),
 
     'system/lib64/libsource.so': blob_fixup()
         .add_needed('libui_shim.so'),
+
+    'system/lib64/libimsma.so': blob_fixup()
+        .replace_needed('libsink.so', 'libsink-mtk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
