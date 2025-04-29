@@ -98,9 +98,6 @@ BOARD_USES_METADATA_PARTITION := true
 # Platform
 TARGET_BOARD_PLATFORM := mt6893
 
-# Power
-TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB := //$(COMMON_PATH):libperfmgr-ext-xiaomi
-
 # Properties
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
