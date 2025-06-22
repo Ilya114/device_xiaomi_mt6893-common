@@ -113,17 +113,7 @@ PRODUCT_PACKAGES += \
     IFAAService
 
 # IMS
-PRODUCT_BOOT_JARS += \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
+$(call inherit-product, vendor/mediatek/ims/ims.mk)
 
 # Light
 PRODUCT_PACKAGES += \
@@ -137,7 +127,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FrameworksResOverlayMT6893 \
     SettingsOverlayMT6893 \
-    TelephonyOverlayMT6893 \
     TetheringResOverlayMT6893 \
     WifiResOverlayMT6893 \
 
