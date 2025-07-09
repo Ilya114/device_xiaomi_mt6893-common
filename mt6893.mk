@@ -38,6 +38,11 @@ PRODUCT_PACKAGES += \
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.mt6893 \
+    fstab.mt6893.ramdisk \
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
