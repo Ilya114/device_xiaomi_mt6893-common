@@ -49,6 +49,9 @@ PRODUCT_PACKAGES += \
     fstab.mt6893 \
     fstab.mt6893.ramdisk \
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.recovery.mt6893.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6893.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
