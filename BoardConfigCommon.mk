@@ -5,6 +5,17 @@
 
 COMMON_PATH := device/xiaomi/mt6893-common
 
+# A/B
+AB_OTA_PARTITIONS := \
+    boot \
+    product \
+    system \
+    system_ext \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor \
+    vendor
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
@@ -65,6 +76,9 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6893
+
+# Recovery
+BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Inherit the proprietary files
 include vendor/xiaomi/mt6893-common/BoardConfigVendor.mk
