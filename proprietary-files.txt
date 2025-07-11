@@ -187,6 +187,11 @@ vendor/lib64/libbt-vendor.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
+# Connectivity
+vendor/bin/conninfra_loader
+vendor/firmware/conninfra.cfg
+vendor/firmware/soc3_0_ram_mcu_1a_1_hdr.bin
+
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
