@@ -60,6 +60,12 @@ ro.vendor.smvr.p2batch.fhd=8
 ro.vendor.smvr.p2batch.hd=16
 ro.vendor.smvr.p2batch.vga=32
 
+# DRM
+drm.service.enabled=true
+
+# Encryption
+ro.crypto.volume.filenames_mode=aes-256-cts
+
 # GNSS
 ro.vendor.mtk_log_hide_gps=1
 
@@ -114,3 +120,9 @@ ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 ro.surface_flinger.primary_display_orientation=ORIENTATION_0
 ro.surface_flinger.protected_contents=true
 ro.surface_flinger.supports_background_blur=1
+
+# TEE
+ro.hardware.kmsetkey=beanpod
+ro.hardware.wechat=beanpod
+ro.vendor.mtk_microtrust_tee_support=1
+ro.vendor.mtk_tee_gp_support=1
