@@ -161,6 +161,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
     vendor.mediatek.hardware.mtkpower@1.2-service.stub
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6893 \
