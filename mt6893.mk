@@ -196,6 +196,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek/libmtkperf_client \
     hardware/xiaomi
 
+# Shipping API level
+PRODUCT_SHIPPING_API_LEVEL := 30
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.mediatek
