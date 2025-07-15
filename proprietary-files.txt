@@ -55,7 +55,6 @@ vendor/lib/libvow_ap_test_ha.so
 vendor/lib/libvow_ap_test_hh.so
 vendor/lib/libvow_ap_test_nn.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
-vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
 
 # Audio Configs
 vendor/etc/audio_param/AudioParamOptions.xml
@@ -543,10 +542,15 @@ vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 
 # Sensors
+vendor/etc/elliptic_sensor.xml
 vendor/firmware/remoteproc_scp
+vendor/lib64/hw/sensors.elliptic.so;FIX_SONAME
+vendor/lib64/hw/sensors.mt6893.so
 vendor/lib64/libhfmanager.so
 vendor/lib64/libhwm.so
 vendor/lib64/libksensor.so
+vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
+vendor/lib64/libsensor_custom.so
 
 # Sotor
 vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
