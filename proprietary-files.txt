@@ -39,7 +39,6 @@ vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libaurisysdemo.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libblisrc32_vendor.so
-vendor/lib/libbwc.so
 vendor/lib/libcvsd_mtk.so
 vendor/lib/libfvaudio.so
 vendor/lib/libmisound.so
@@ -186,6 +185,10 @@ vendor/lib64/libbt-vendor.so
 # Bluetooth (A2DP)
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
+
+# Camera
+vendor/lib/libbwc.so
+vendor/lib64/libbwc.so
 
 # Connectivity
 vendor/bin/conninfra_loader
