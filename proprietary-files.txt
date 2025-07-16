@@ -637,4 +637,5 @@ vendor/etc/wifi/passpointProfile.conf
 vendor/firmware/WIFI_RAM_CODE_soc3_0_1a_1.bin
 vendor/firmware/soc3_0_patch_wmmcu_1a_1_hdr.bin
 vendor/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin
+vendor/firmware/wifi.cfg
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
