@@ -277,6 +277,7 @@ vendor/lib64/libmfido_isee.so
 vendor/lib64/libmfido_mitee.so
 
 # Fingerprint
+vendor/etc/vintf/manifest/fod.xml
 vendor/lib64/hw/fingerprint.fpc_isee.so:vendor/lib64/hw/fingerprint.fpc_isee.default.so;FIX_SONAME
 vendor/lib64/hw/fingerprint.fpc_msee.so:vendor/lib64/hw/fingerprint.fpc_msee.default.so;FIX_SONAME
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so;FIX_SONAME
