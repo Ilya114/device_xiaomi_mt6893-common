@@ -78,6 +78,7 @@ $(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth-service.mediatek \
     android.hardware.bluetooth.audio-impl
 
 # ConsumerIr
