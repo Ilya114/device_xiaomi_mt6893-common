@@ -181,18 +181,8 @@
             "DefaultIndex": 0
         },
         {
-            "Name": "FGUclampMin",
-            "Path": "/dev/cpuctl/foreground/cpu.uclamp.min",
-            "Values": [
-                "0",
-                "100"
-            ],
-            "ResetOnInit": true,
-            "DefaultIndex": 0
-        },
-        {
-            "Name": "TAUclampMin",
-            "Path": "/dev/cpuctl/top-app/cpu.uclamp.min",
+            "Name": "TASchedtuneBoost",
+            "Path": "/dev/stune/top-app/schedtune.boost",
             "Values": [
                 "0",
                 "10",
@@ -256,7 +246,7 @@
         },
         {
             "PowerHint": "INTERACTION",
-            "Node": "TAUclampMin",
+            "Node": "TASchedtuneBoost",
             "Duration": 0,
             "Value": "10"
         },
@@ -286,13 +276,7 @@
         },
         {
             "PowerHint": "LAUNCH",
-            "Node": "FGUclampMin",
-            "Duration": 2000,
-            "Value": "100"
-        },
-        {
-            "PowerHint": "LAUNCH",
-            "Node": "TAUclampMin",
+            "Node": "TASchedtuneBoost",
             "Duration": 2000,
             "Value": "100"
         },
