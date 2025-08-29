@@ -211,15 +211,6 @@
             "ResetOnInit": true
         },
         {
-            "Name": "SchedBoost",
-            "Path": "/proc/perfmgr/boost_ctrl/eas_ctrl/sched_boost",
-            "Values": [
-                "1",
-                "0"
-            ],
-            "ResetOnInit": true
-        },
-        {
             "Name": "RestrictedCpuset",
             "Path": "/dev/cpuset/restricted/cpus",
             "Values": [
@@ -308,12 +299,6 @@
         {
             "PowerHint": "LAUNCH",
             "Node": "DRAMOppMin",
-            "Duration": 2000,
-            "Value": "1"
-        },
-        {
-            "PowerHint": "LAUNCH",
-            "Node": "SchedBoost",
             "Duration": 2000,
             "Value": "1"
         },
