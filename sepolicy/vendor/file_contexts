@@ -1,0 +1,2 @@
+# Thermal
+/(vendor|system/vendor)/bin/mi_thermald                                                                u:object_r:vendor_mi_thermald_exec:s0
