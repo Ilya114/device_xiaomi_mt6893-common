@@ -25,6 +25,7 @@ genfscon sysfs /devices/platform/11f00000.i2c5/i2c-5/5-0034/mt6360_pmu_rgbled.4.
 genfscon sysfs /devices/platform/11015000.i2c0/i2c-0/0-0035/power_supply/Charger_Identify        u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/11015000.i2c0/i2c-0/0-0055/power_supply/bms                     u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/11015000.i2c0/i2c-0/0-0066/power_supply/bq2597x-slave           u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/1101a000.i2c11/i2c-11/11-005b/power_supply/bq2597x-master       u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/1101a000.i2c11/i2c-11/11-0066/power_supply/bq2597x-slave        u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/11cb1000.i2c9/i2c-9/9-0055/power_supply/bms                     u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/11cb1000.i2c9/i2c-9/9-0055/verify_digest                        u:object_r:sysfs_power_supply:s0
@@ -43,6 +44,7 @@ genfscon sysfs /devices/platform/11015000.i2c0/i2c-0/0-0055/power_supply/bms/wak
 genfscon sysfs /devices/platform/11015000.i2c0/i2c-0/0-0055/wakeup                               u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11015000.i2c0/i2c-0/0-0066/power_supply/bq2597x-slave/wakeup    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11015000.i2c0/i2c-0/0-0066/wakeup                               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1101a000.i2c11/i2c-11/11-005b/power_supply/bq2597x-master/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1101a000.i2c11/i2c-11/11-0066/power_supply/bq2597x-slave/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1101a000.i2c11/i2c-11/11-0066/wakeup                            u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1101d000.spi6/spi_master/spi6/spi6.0/wakeup                     u:object_r:sysfs_wakeup:s0
