@@ -1,0 +1,1 @@
+allow system_app vendor_gamekey_device:chr_file r_file_perms;
