@@ -372,7 +372,7 @@ vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b;SYMLINK=vendor/bin/hw/a
 vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc|e09ad9455fc75875f6ccef32572bfc0894c98ab5
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy|2f5377909dbdab645c9e4fe0b52c4c5c823256a1
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy|7e75df111158f52a57e53afed252bd21ac1468d6
-vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml|9d6aa618b44ce23d3040f1f994692692458a9b7c
+vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml:vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml|9d6aa618b44ce23d3040f1f994692692458a9b7c|622d0480a3af7a162e37c56e0770213d8027000d
 vendor/lib64/libadpcmdec_mtk.so|8386405bf770d1ad7652f76f4f38e9c26285c88a
 vendor/lib64/libcodec2_mtk_c2store.so|1532f540228912668e13346fa53075fa46088731
 vendor/lib64/libcodec2_mtk_vdec.so|f673cb93ef300db88cd7040515e184e93028657f
