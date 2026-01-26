@@ -156,6 +156,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayMT6893 \
     FrameworksResOverlayMT6893 \
     SettingsOverlayMT6893 \
+    SystemUIResOverlayMT6893 \
     TetheringResOverlayMT6893 \
     WifiResOverlayMT6893 \
 
